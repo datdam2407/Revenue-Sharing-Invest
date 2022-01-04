@@ -1,25 +1,21 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Navbar from './component/navbar/Navbar';
+import Header from './cointainer/header/header';
+import WhatRSI from './cointainer/aboutRSI/WhatRSI';
+import Features from './cointainer/features/Features'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+const App = () => (
+  <div className="App">
+    <div className="gradient__bg">
+      <Navbar />
+      <Header />
+      <WhatRSI/>
+    <Features />
+
     </div>
-  );
-}
+ 
+    </div>
+);
 
 export default App;
