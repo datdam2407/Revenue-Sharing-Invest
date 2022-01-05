@@ -16,9 +16,9 @@ businesses all over the U.S.</p>
         <button type="button">Get Started</button>
       </div>
 
-      <div className="RSI__header-content__people">
+      {/* <div className="RSI__header-content__people">
         <p>1,600 people requested access a visit in last 24 hours</p>
-      </div>
+      </div> */}
     </div>
 
     <div className="RSI__header-image">

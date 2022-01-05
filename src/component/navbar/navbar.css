@@ -7,18 +7,25 @@
     width: 62.56px;
     height: 16.02px;
 }
-
-
-
-
 } */
 
 /*top right bottom left */
+.RSI__navbar_control {
+    background-color: #FFF;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+   height: 5rem;
+}
+.RSI__navbar_control{
+    background-color: #FFF;
+}
 .RSI__navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 32px 96px;
+    color: aquamarine;
 }
 
 .RSI__navbar-links {
@@ -26,6 +33,9 @@
     flex: 1;
     justify-content: flex-start;
     align-self: center;
+}
+.RSI__navbar-links :hover {
+   color: aquamarine;
 }
 
 .RSI__navbar-links_container {
@@ -42,7 +52,7 @@
 .RSI__navbar-links_container p,
 .RSI__navbar-sign p,
 .RSI__navbar-menu_container p {
-    color: aliceblue;
+    color: rgb(2, 0, 0);
     font-family: var(--font-family);
     font-weight: 600;
     font-size: 1.125rem;
@@ -92,7 +102,7 @@
     align-items: flex-end;
     flex-direction: column;
     text-align: end;
-    background: radial-gradient(circle at 11% 42%, rgb(1 41 83) 13%, rgb(10 18 31) 59%);
+    background: radial-gradient(circle at 11% 42%, rgb(205, 215, 226) 13%, rgb(194, 251, 199) 59%);
     padding: 2rem;
     position: absolute;
     right: 0;
@@ -110,12 +120,15 @@
 
     .RSI__navbar-menu {
         display: flex;
+        background-color: black;
     }
+    
 }
 
 @media screen and (max-width: 700px) {
     .RSI__navbar {
         padding: 2rem 4rem;
+        
     }
 }
 

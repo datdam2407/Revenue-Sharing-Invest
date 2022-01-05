@@ -1,0 +1,68 @@
+.RSI_invertco {
+    display: flex;
+    flex-direction: column;    
+}
+
+.RSI_invertco-heading {
+    width: 100%;
+    text-align: left;
+
+    margin-bottom: 5rem;
+}
+
+.RSI_invertco-heading h1 {
+    font-size: 62px;
+    line-height: 75px;
+    font-family: var(--font-family);
+    font-weight: 800;
+}
+
+.RSI_invertco-container {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.RSI_invertco-container_groupB {
+    flex: 1;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 4rem;
+    margin: 0 4rem;
+
+}
+
+@media screen and (max-width: 900px) {
+
+    .RSI_invertco-container_groupB {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 0rem;
+
+    }
+
+
+    .RSI_invertco-heading h1 {
+        font-size: 46px;
+        line-height: 52px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .RSI_invertco-container_groupB {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .RSI_invertco-heading h1 {
+        font-size: 46px;
+        line-height: 52px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .RSI_invertco-heading h1 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+}

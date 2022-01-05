@@ -46,8 +46,8 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
-    background: rgb(3 19 39);
-    border: 2px solid rgb(3 19 39);
+    background: rgb(240, 243, 240);
+    border: 2px solid rgb(203, 236, 199);
     padding: 0 1rem;
     outline: none;
     color: #fff;
@@ -63,8 +63,8 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
-    background: #FF4820;
-    border: 2px solid #FF4820;
+    background: #4db8d3;
+    border: 2px solid #f8f5f5;
     padding: 0 1rem;
     color: #fff;
     cursor: pointer;
@@ -112,21 +112,15 @@
     /* display: none; */    flex: 1;
 
 }
-.gradient__text{
+/* .gradient__text{
   
         font-size: 72px;
         background: -webkit-linear-gradient(#eee, #333);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
       
-  }
-.RSI__header-content p{
-  
-        background: -webkit-linear-gradient(rgb(6, 51, 71), rgb(51, 39, 206));
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-      
-  }
+  } */
+
 @media screen and (max-width: 1050px) {
     .RSI__header {
         flex-direction: column;

@@ -5,6 +5,7 @@ import './navbar.css';
 const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
     return (
+        <div className="RSI__navbar_control">
         <div className="RSI__navbar">
             <div className="RSI__navbar-links">
                 <div className="RSI__navbar-links_logo">
@@ -14,9 +15,9 @@ const Navbar = () => {
                 <div className="RSI__navbar-links_container">
                     <p><a href="#home">Home</a></p>
                     <p><a href="#wRSI">What is RSI?</a></p>
-                    <p><a href="#possibility">Why inverts?</a></p>
+                    <p><a href="#wIns">Why inverts?</a></p>
                     <p><a href="#features">Case Studies</a></p>
-                    <p><a href="#blog">Library</a></p>
+                    <p><a href="#invertco">Library</a></p>
                 </div>
             </div>
             <div className="RSI__navbar-sign">
@@ -32,9 +33,9 @@ const Navbar = () => {
                         <div className="RSI__navbar-menu_container-links">
                             <p><a href="#home">Home</a></p>
                             <p><a href="#wRSI">What is RSI?</a></p>
-                            <p><a href="#possibility">Why inverts</a></p>
+                            <p><a href="#wIns">Why inverts</a></p>
                             <p><a href="#features">Case Studies</a></p>
-                            <p><a href="#blog">Library</a></p>
+                            <p><a href="#invertco">Library</a></p>
                         </div>
                         <div className="RSI__navbar-menu_container-links-sign">
                             <p>About</p>
@@ -43,6 +44,7 @@ const Navbar = () => {
                     </div>
                 )}
             </div>
+        </div>
         </div>
     );
 };

@@ -11,8 +11,10 @@ Build the future world you want to see by investing directly
 in businesses that are the backbone of local communities." />
     </div>
     <div className="RSI__whatRSI-heading">
-      <h1 className="gradient__text">The possibilities are beyond your imagination</h1>
-      <h2 color='red'>Get Started</h2>
+      <h1 className="gradient__text">Get in early.<br/>
+Startups are changing the world around us. Now you can get involved too.</h1>
+      <p>Get Started</p>
+
     </div>
     <div className="RSI__whatRSI-container">
       <Feature title="Regular cash payments*" text="Debt investments can offer regular cash payments" />
