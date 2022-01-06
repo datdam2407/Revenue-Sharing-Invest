@@ -5,6 +5,8 @@
     display: flex;
     flex-direction: column;
     background: var(--color-footer);
+
+    z-index: 10
 }
 
 .RSI_invertco-container_title-image {
@@ -24,9 +26,9 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
     padding: 1rem 1.5rem;
-    height: 100%;
+    height: 120%;
+    
 }
 
 .RSI_invertco-container_title-content p {
@@ -35,7 +37,7 @@
     font-weight: 700;
     line-height: 35px;
 
-    color: rgb(19, 2, 2);
+    color: rgb(7, 5, 5);
 }
 
 .RSI_invertco-container_title-content h3 {
@@ -52,6 +54,77 @@
 .RSI_invertco-container_title-content p:last-child {
     cursor: pointer;
 }
+/*
+*/
+.RSI__card{
+    color:aquamarine;
+    max-width: 35ch;
+    overflow: hidden;
+    transition: transform 500ms ease;
+}
+.RSI__card:hover {
+    transform:scale(1.05);
+}
+.RSI__card-content{
+    --padding: 1,5em;
+    padding: var(--padding);
+    background:linear-gradient(
+        hsl(0 0% 0% / 0),
+        rgba(245, 242, 242, 0.3) 20%,
+        rgb(251, 251, 251)
+        );
+        transform: translateY(90%);
+        transition: transform 500ms ease;
+}
+.RSI_card-title{
+    position: relative;
+    width: max-content;
+}
+.RSI__card:hover .RSI_card-title::after{
+    transform: scale(1);
+}
+.RSI_card-title ::after{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: calc(100% + var(--padding));
+    left: calc(var(--padding) * -1);
+    top:0;
+    background-color: turquoise ;
+    transform: scale(0);
+    transform-origin: left;
+    transition: transform 500ms ease;
+}
+
+.RSI__card:hover .RSI__card-content{
+    transform: translateY(0);
+}
+.RSI_button_more{
+    cursor:pointer; 
+    display: inline;
+    text-decoration: none;
+    color: chartreuse;
+    background-color: rgb(131, 153, 109);
+    padding: 0.5rem 1.25rem;
+}
+.RSI_button_more:hover, .RSI_button_more:focus{
+    background-color: rgb(255, 160, 126);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width: 1050px) {
@@ -60,7 +133,7 @@
         height: 100%;
         display: inline-block;
 
-        line-height: 35px;
+        /* line-height: 35px; */
     }
 }
 @media screen and (max-width: 900px) {
