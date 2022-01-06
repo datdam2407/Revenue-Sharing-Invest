@@ -16,6 +16,7 @@
     position: sticky;
     top: 0;
    height: 5rem;
+   
 }
 .RSI__navbar_control{
     background-color: #FFF;
@@ -33,6 +34,8 @@
     flex: 1;
     justify-content: flex-start;
     align-self: center;
+    text-decoration:none;
+    color: unset;
 }
 .RSI__navbar-links :hover {
    color: aquamarine;

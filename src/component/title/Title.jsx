@@ -12,7 +12,6 @@ const Title = ({ imgUrl,logo, date, text ,des}) => (
       <img src={logo} alt="" />
         <p>{date}</p>
         <h3 >{text}</h3>
-        {/* <h4>{des}</h4> */}
       <div className='RSI__card-content'>
         <p>$213238123798 raise</p>
         <hr/>

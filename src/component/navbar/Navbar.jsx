@@ -13,12 +13,12 @@ const Navbar = () => {
                     <h1>SRI</h1>
                 </div>
                 <div className="RSI__navbar-links_container">
-                    <p><a href="#home">Home</a></p>
-                    <p><a href="#wRSI">What is RSI?</a></p>
-                    <p><a href="#wIns">Why inverts?</a></p>
-                    <p><a href="#features">Case Studies</a></p>
-                    <p><a href="#invertco">Library</a></p>
-                    <p><a href="#Startup">Startup</a></p>
+                    <p><a style={{textDecoration:"none"}} href="#home">Home</a></p>
+                    <p><a style={{textDecoration:"none"}} href="#wRSI">What is RSI?</a></p>
+                    <p><a style={{textDecoration:"none"}} href="#wIns">Why inverts?</a></p>
+                    <p><a style={{textDecoration:"none"}} href="#features">Case Studies</a></p>
+                    <p><a style={{textDecoration:"none"}} href="#invertco">Library</a></p>
+                    <p><a style={{textDecoration:"none"}} href="#Startup">Startup</a></p>
                 </div>
             </div>
             <div className="RSI__navbar-sign">

@@ -4,7 +4,7 @@
 
     display: flex;
     flex-direction: column;
-    background: var(--color-footer);
+    background: rgb(144, 144, 141);
 
     z-index: 10
 }
@@ -27,7 +27,7 @@
     flex-direction: column;
     justify-content: space-between;
     padding: 1rem 1.5rem;
-    height: 120%;
+    height: 100%;
     
 }
 
@@ -56,9 +56,10 @@
 }
 /*
 */
+
 .RSI__card{
     color:aquamarine;
-    max-width: 35ch;
+    max-height: 35ch;
     overflow: hidden;
     transition: transform 500ms ease;
 }

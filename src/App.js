@@ -6,22 +6,21 @@ import WhatRSI from './cointainer/aboutRSI/WhatRSI';
 import Features from './cointainer/features/Features'
 import Invertco from './cointainer/startup/Invertco';
 import CTA from './component/callaction/CTA';
+import Footer from './component/footer/Footer';
 
 const App = () => (
   <div className="App">
-    <div className="gradient__bg">
       <Navbar />
-      <Header />
 
+    <div className="gradient__bg">
+      <Header />
     <Features />
     <Invertco />
-
     <CTA />
     <WhatRSI />
     <Invertco />
-
     </div>
-   
+    <Footer/>
   </div>
 );
 
