@@ -18,6 +18,7 @@ const App = () => (
 
     <CTA />
     <WhatRSI />
+    <Invertco />
 
     </div>
    
