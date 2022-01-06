@@ -26,7 +26,7 @@ const Invertco = () => {
 
 
         <div className="RSI_invertco-container_groupB">
-          <div className='RSI__card'>
+          {/* <div className='RSI__card'>
             <div className='RSI__card-content'>
               <h2 className='RSI_card-title'> Invert</h2>
               <p className='RSI_card-body'>
@@ -34,9 +34,10 @@ const Invertco = () => {
               </p>
               <a href='#' className='RSI_button_more'>See more</a>
             </div>
-          </div>
+          </div> */}
 
 
+            <Title imgUrl={test1} date="Sep 26, 2021" text="Invert" />
             <Title imgUrl={test1} date="Sep 26, 2021" text="Invert" />
             <Title imgUrl={test1} date="Sep 26, 2021" text="Invert" />
 

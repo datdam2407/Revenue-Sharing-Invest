@@ -15,7 +15,9 @@
 
 .RSI_invertco-container_title-image img {
     width: 100%;
-    height: 100%;
+    height: 120%;
+    line-height: 35px;
+
 }
 
 .RSI_invertco-container_title-content {
@@ -52,6 +54,22 @@
 }
 
 
+@media screen and (max-width: 1050px) {
+    .RSI_invertco-container_title-image img {
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+
+        line-height: 35px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .RSI_invertco-container_title-image img {
+        width: 100%;
+        height: 100%;
+        line-height: 35px;
+    }
+}
 @media screen and (max-width: 550px) {
     .RSI_invertco-container_title-content h3 {
         font-size: 18px;

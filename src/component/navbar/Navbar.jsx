@@ -18,6 +18,7 @@ const Navbar = () => {
                     <p><a href="#wIns">Why inverts?</a></p>
                     <p><a href="#features">Case Studies</a></p>
                     <p><a href="#invertco">Library</a></p>
+                    <p><a href="#Startup">Startup</a></p>
                 </div>
             </div>
             <div className="RSI__navbar-sign">
