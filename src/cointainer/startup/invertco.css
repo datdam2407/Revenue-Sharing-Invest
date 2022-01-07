@@ -5,8 +5,8 @@
 
 .RSI_invertco-heading {
     width: 100%;
-padding: 0 13rem;    
-margin-bottom: 5rem;
+padding: 0 19rem;    
+margin-bottom: 2rem;
 }
 
 .RSI_invertco-heading h1 {
@@ -29,7 +29,7 @@ margin-bottom: 5rem;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2rem;
     margin: 0 4rem;
-    padding: 0 9rem;
+    padding: 0 14.5rem;
     
     
 }
@@ -106,7 +106,7 @@ margin-bottom: 5rem;
     }
     .RSI_invertco-heading h1 {
         font-size: 36px;
-        line-height: 52px;
+        line-height: 1;
         
     }
     .RSI_invertco-heading {
@@ -143,7 +143,7 @@ margin-bottom: 5rem;
     .RSI_invertco-heading {
         width: 100%;
     padding: 0 3rem;    
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
     }
 }
 

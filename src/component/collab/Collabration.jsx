@@ -5,6 +5,8 @@ import {
     Col,
     UncontrolledTooltip,
   } from "reactstrap";
+  import './collabration.css';
+
 const Collabration = () => {
     return (
         <div className='main-content'>

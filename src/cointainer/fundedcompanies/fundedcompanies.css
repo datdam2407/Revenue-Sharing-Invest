@@ -1,0 +1,103 @@
+.RSI_Funded {
+    display: flex;
+    flex-direction: column;    
+}
+
+.RSI_Funded-heading {
+    width: 100%;
+padding: 0 19rem;    
+margin-bottom: 2rem;
+/* display: flex; */
+}
+.RSI_Funded-heading button{
+    margin:0 7rem;
+    /* text-align: right; */
+}
+
+.RSI_Funded-heading h1 {
+    font-weight: 900;
+    color: #000;
+    letter-spacing: -.04em;
+    font-size: 50px;
+    line-height: 1;
+}
+.RSI_Funded-heading h3 {
+
+    /* font-family: monospace; */
+    font-weight: 300;
+    color: #777;
+    
+}
+.RSI_Funded-container_groupB {
+    flex: 1;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    margin: 0 4rem;
+    padding: 0 14.5rem;
+    
+    
+}
+
+.RSI_Funded button{
+    width: 15%;
+    margin-left: 43rem;
+}
+@media screen and (max-width: 1550px) {
+
+    .RSI_Funded-container_groupB {
+        grid-template-columns: repeat(3, 1fr);
+        margin: 0 0rem;
+        padding: 0 4rem;
+
+    }
+    .RSI_Funded-heading h1 {
+        font-size: 36px;
+        line-height: 1;
+        
+    }
+    .RSI_Funded-heading {
+        width: 100%;
+    padding: 0 5rem;    
+    margin-bottom: 5rem;
+    }
+}
+@media screen and (max-width: 1050px) {
+
+    .RSI_Funded-container_groupB {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 3rem;
+
+    }
+
+    .RSI_Funded-heading h1 {
+        font-size: 36px;
+        line-height: 52px;
+    }
+}
+
+@media screen and (max-width: 847px) {
+    .RSI_Funded-container_groupB {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0 1rem;
+
+    }
+ 
+    .RSI_Funded-heading h1 {
+        font-size: 36px;
+        line-height: 52px;
+    }
+    .RSI_Funded-heading {
+        width: 100%;
+    padding: 0 3rem;    
+    margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .RSI_Funded-heading h1 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+}

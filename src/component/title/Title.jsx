@@ -9,7 +9,7 @@ const Title = ({ imgUrl,logo, date, text ,des}) => (
     </div>
     <div className="RSI_invertco-container_title-content">
       <div className='RSI__card'>
-      <img src={logo} alt="" />
+      <img className='RSI_logo_invertco' src={logo} alt="" />
         <p>{date}</p>
         <h3 >{text}</h3>
       <div className='RSI__card-content'>
