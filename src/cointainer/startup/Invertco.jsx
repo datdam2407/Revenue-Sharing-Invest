@@ -20,9 +20,9 @@ const Invertco = () => {
   return (
     <div className="RSI_invertco section__padding" id="blog">
       <div className="RSI_invertco-heading">
-        <h1 className="gradient__text">Invert Now<br /> </h1>
+        <h1 >Invert Now<br /> </h1>
        
-  <h3  style={{ color: "black" }}> <a style={{color:"green"}} href="#"><i class="fa fa-line-chart"></i></a>Most traction in 3 days</h3>
+  <h3  style={{ color: "gray" }}> <a style={{color:"green"}} href="#"><i class="fa fa-line-chart"></i></a>Most traction in 3 days</h3>
       </div>
 
 

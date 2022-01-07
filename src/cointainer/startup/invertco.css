@@ -5,16 +5,23 @@
 
 .RSI_invertco-heading {
     width: 100%;
-    text-align: left;
-
-    margin-bottom: 5rem;
+padding: 0 13rem;    
+margin-bottom: 5rem;
 }
 
 .RSI_invertco-heading h1 {
-    font-size: 62px;
-    line-height: 75px;
-    font-family: var(--font-family);
-    font-weight: 800;
+    font-weight: 900;
+    color: #000;
+    letter-spacing: -.04em;
+    font-size: 50px;
+    line-height: 1;
+}
+.RSI_invertco-heading h3 {
+
+    /* font-family: monospace; */
+    font-weight: 300;
+    color: #777;
+    
 }
 .RSI_invertco-container_groupB {
     flex: 1;
@@ -102,6 +109,11 @@
         line-height: 52px;
         
     }
+    .RSI_invertco-heading {
+        width: 100%;
+    padding: 0 5rem;    
+    margin-bottom: 5rem;
+    }
 }
 @media screen and (max-width: 1050px) {
 
@@ -127,6 +139,11 @@
     .RSI_invertco-heading h1 {
         font-size: 36px;
         line-height: 52px;
+    }
+    .RSI_invertco-heading {
+        width: 100%;
+    padding: 0 3rem;    
+    margin-bottom: 5rem;
     }
 }
 
