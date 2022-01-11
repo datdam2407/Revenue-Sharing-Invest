@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
+import { Link } from 'react-router-dom';
 // import logo from '';
 import './navbar.css';
 const Navbar = () => {
@@ -13,12 +14,13 @@ const Navbar = () => {
                     <h1>SRI</h1>
                 </div>
                 <div className="RSI__navbar-links_container">
-                    <p><a style={{textDecoration:"none"}} href="#home">Home</a></p>
+                    <p><Link to="/">Home</Link> </p>
+
                     <p><a style={{textDecoration:"none"}} href="#wRSI">What is RSI?</a></p>
                     <p><a style={{textDecoration:"none"}} href="#wIns">Why inverts?</a></p>
                     <p><a style={{textDecoration:"none"}} href="#features">Case Studies</a></p>
-                    <p><a style={{textDecoration:"none"}} href="#invertco">Library</a></p>
-                    <p><a style={{textDecoration:"none"}} href="#Startup">Startup</a></p>
+                    <p><Link to="/real-estate">Real estate</Link> </p>
+                    <p><Link to="/companies">Startup</Link> </p>
                 </div>
             </div>
             <div className="RSI__navbar-sign">

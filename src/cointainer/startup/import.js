@@ -9,6 +9,9 @@ import founded1 from '../../assets/founded1.webp';
 import founded2 from '../../assets/founded2.webp';
 import founded3 from '../../assets/founded3.webp';
 import founded4 from '../../assets/founded4.webp';
+import realstate from '../../assets/realEstate.png';
+import realstate2 from '../../assets/realEstate2.png';
+import author from '../../assets/author.png';
 
 export {
     test1,
@@ -20,5 +23,5 @@ export {
     founded1,
     founded2,
     founded3,
-    founded4,
+    founded4,realstate,author,realstate2
 };

@@ -10,13 +10,13 @@
 } */
 
 /*top right bottom left */
+
 .RSI__navbar_control {
     background-color: #FFF;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
    height: 5rem;
-   
+   /* position: -webkit-sticky;
+   position: sticky; 
+   top: 0; */
 }
 .RSI__navbar_control{
     background-color: #FFF;
