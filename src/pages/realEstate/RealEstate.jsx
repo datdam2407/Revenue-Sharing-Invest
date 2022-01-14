@@ -18,7 +18,7 @@ import "./realEstate.css"
 // import StartupPage from '../startup/StartupPage';
 import Title from '../../component/title/Title';
 import '../../../src/cointainer/startup/invertco.css';
-import { test1, test2, test3,test4,test5,test6 ,author,realstate,realstate2} from '../../cointainer/startup/import';
+import {author,realstate,realstate2, funded1, funded2, funded4, funded6, logo6, logo4, logo3, logo2, logo1, funded5, funded3, logo7} from '../../cointainer/startup/import';
 const RealEstate = () => {
   return (
       <>
@@ -59,12 +59,14 @@ const RealEstate = () => {
       </div>
 
       <div className="RSI_RealEstate-container_groupB">
-        <Title imgUrl={test1} logo={test2} date="Sep 26, 2021" text="First Tokenized Litigation Funding for one of largest US crop destructions" des="First Tokenized Litigation Funding for one of largest US crop destructions" />
-        <Title imgUrl={test3} date="Sep 26, 2021" text="Invert" />
-        <Title imgUrl={test1} date="Sep 26, 2021" text="Invert" />
-        <Title imgUrl={test4} date="Sep 26, 2021" text="Invert" />
-        <Title imgUrl={test5} date="Sep 26, 2021" text="Invert" />
-        <Title imgUrl={test6} date="Sep 26, 2021" text="Invert" />
+      <Title imgUrl={funded5} logo={logo7} date="Sep 26, 2021" text="First Tokenized" des="First Tokenized Litigation Funding for one of largest US crop destructions" />
+        <Title imgUrl={funded3} logo={logo1} text="Litigation Funding" des="A diversified portfolio of digital real estate NFTs across various metaverses." />
+        <Title imgUrl={funded1} logo={logo2} text="AlPhineX" des="Invest in indoor snowsports resorts throughout North America!" />
+        <Title imgUrl={funded2} logo={logo3} text="Insee.com" des="A social network for newsletters, meeting new colleagues, and virtual events" />
+        <Title imgUrl={funded4} logo={logo4} text="KingsCronw" des="The financial data platform for the online private market" />
+        <Title imgUrl={funded6} logo={logo6} text="Artisanal Funding" des="Artisanal, luxury candy and sweet experiences for grown ups" />
+        
+
 
       </div>
     </div>
@@ -75,16 +77,16 @@ const RealEstate = () => {
 <br /> </h2>
       </div>
       <div className="RSI_RealEstate-container_groupC">
-        <Title imgUrl={test1} logo={test2} date="Sep 26, 2021" text="First Tokenized Litigation Funding for one of largest US crop destructions" des="First Tokenized Litigation Funding for one of largest US crop destructions" />
-        <Title imgUrl={test3} date="Sep 26, 2021" text="Invert" />
-        <Title imgUrl={test1} date="Sep 26, 2021" text="Invert" />
-        <Title imgUrl={test4} date="Sep 26, 2021" text="Invert" />
-        <Title imgUrl={test5} date="Sep 26, 2021" text="Invert" />
-        <Title imgUrl={test6} date="Sep 26, 2021" text="Invert" />
-        <Title imgUrl={test5} date="Sep 26, 2021" text="Invert" />
-        <Title imgUrl={test6} date="Sep 26, 2021" text="Invert" />
-        <Title imgUrl={test5} date="Sep 26, 2021" text="Invert" />
-        <Title imgUrl={test6} date="Sep 26, 2021" text="Invert" />
+      <Title imgUrl={funded3} logo={logo1} text="Litigation Funding" des="A diversified portfolio of digital real estate NFTs across various metaverses." />
+        <Title imgUrl={funded1} logo={logo2} text="AlPhineX" des="Invest in indoor snowsports resorts throughout North America!" />
+        <Title imgUrl={funded2} logo={logo3} text="Insee.com" des="A social network for newsletters, meeting new colleagues, and virtual events" />
+        <Title imgUrl={funded4} logo={logo4} text="KingsCronw" des="The financial data platform for the online private market" />
+        <Title imgUrl={funded6} logo={logo6} text="Artisanal Funding" des="Artisanal, luxury candy and sweet experiences for grown ups" />
+        <Title imgUrl={funded2} logo={logo3} text="Insee.com" des="A social network for newsletters, meeting new colleagues, and virtual events" />
+        <Title imgUrl={funded4} logo={logo4} text="KingsCronw" des="The financial data platform for the online private market" />
+        <Title imgUrl={funded6} logo={logo6} text="Artisanal Funding" des="Artisanal, luxury candy and sweet experiences for grown ups" />
+        
+        
 
       </div>
             <p style={{textAlign:"center"}}>Add Lazing load</p>

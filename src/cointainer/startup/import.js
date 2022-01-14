@@ -1,27 +1,25 @@
-import test1 from '../../assets/test1.webp';
-// import test2 from '../../assets/ISS.jpg';
-import test2 from '../../assets/test2.webp';
-import test3 from '../../assets/Picture-1.jpg';
-import test4 from '../../assets/test4.webp';
-import test5 from '../../assets/test6.webp';
-import test6 from '../../assets/test5.jpg';
-import founded1 from '../../assets/founded1.webp';
-import founded2 from '../../assets/founded2.webp';
-import founded3 from '../../assets/founded3.webp';
-import founded4 from '../../assets/founded4.webp';
+
+import funded1 from '../../assets/funded1.png';
+import funded2 from '../../assets/funded2.png';
+import funded3 from '../../assets/funded3.png';
+import funded4 from '../../assets/funded4.png';
+import funded5 from '../../assets/funded5.png';
+import funded6 from '../../assets/funded6.png';
 import realstate from '../../assets/realEstate.png';
 import realstate2 from '../../assets/realEstate2.png';
 import author from '../../assets/author.png';
+import logo1 from '../../assets/logo1.png';
+import logo2 from '../../assets/logo2.png';
+import logo3 from '../../assets/logo3.png';
+import logo4 from '../../assets/logo4.png';
+import logo5 from '../../assets/logo5.png';
+import logo6 from '../../assets/logo6.png';
+import logo7 from '../../assets/logo7.png';
 
 export {
-    test1,
-    test2,
-    test3,
-    test4,
-    test5,
-    test6,
-    founded1,
-    founded2,
-    founded3,
-    founded4,realstate,author,realstate2
+    funded3,
+    funded4,
+    funded6,
+    funded5,realstate,author,realstate2,
+    logo1,logo2,logo3,logo4,logo5,logo6,logo7,funded1,funded2
 };

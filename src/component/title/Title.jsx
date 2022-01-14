@@ -1,17 +1,23 @@
-import React from 'react';
+import { React, useEffect } from 'react';
 import './title.css';
 
+import Aos from 'aos';
+import "aos/dist/aos.css"
+Aos.init({ duration: 2000 });
+const Title = ({ imgUrl,logo, date, text ,des} ) => (
 
-const Title = ({ imgUrl,logo, date, text ,des}) => (
-  <div className="RSI_invertco-container_title">
-    <div className="RSI_invertco-container_title-image">
+ 
+  
+  <div className="RSI_invertco-container_title" >
+    <div className="RSI_invertco-container_title-image" data-aos="zoom-in">
       <img src={imgUrl} alt="blog_image" />
     </div>
-    <div className="RSI_invertco-container_title-content">
+    <div className="RSI_invertco-container_title-content" >
       <div className='RSI__card'>
       <img className='RSI_logo_invertco' src={logo} alt="" />
-        <p>{date}</p>
+        {/* <p>{date}</p> */}
         <h3 >{text}</h3>
+        <p>{des}</p>
       <div className='RSI__card-content'>
         <p>$213238123798 raise</p>
         <hr/>

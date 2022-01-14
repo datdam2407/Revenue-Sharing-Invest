@@ -13,6 +13,7 @@ import "./Index.css";
 export default function Index() {
     return (
         <>
+         
           <div className="App">
 
             <div className="gradient__bg">
@@ -26,6 +27,7 @@ export default function Index() {
             <FooterSection />
             <Footer />
         </div>
+        
         </div>
         </>
 
