@@ -6,6 +6,9 @@
 
     background: #161d2d;
 }
+.RSI__footer{
+  color: rgb(228, 222, 222);
+}
 
 .RSI__footer-heading {
     width: 100%;
@@ -166,7 +169,7 @@ text-decoration: none;
 }
 .social-icons a{
   background-color:#eceeef;
-  /* color:#818a91; */
+  color:#818a91;
   font-size:16px;
   display:inline-block;
   line-height:44px;

@@ -2,9 +2,8 @@ import React from 'react'
 import {
   Container,
   Row, Badge,
-
   Col,
-} from "reactstrap";
+} from "react-bootstrap";
 import { Link } from "react-router-dom";
 // 
 const FooterSection = () => {
@@ -15,7 +14,6 @@ const FooterSection = () => {
           <h1 className="gradient__text">Smart way to raise money
           </h1>
           <h4>Republic is a leading private investment platform
-
           </h4>
           <hr />
           <Row className="row-grid align-items-center">
@@ -28,9 +26,7 @@ const FooterSection = () => {
                   <li className="py-2">
                     <div className="d-flex align-items-center">
                       <div>
-                        <Badge className="badge-circle mr-3" color="primary">
                           <i className="ni ni-settings-gear-65" />
-                        </Badge>
                       </div>
                       <div>
                         <h4 className="mb-0">Raise up to $1M of founder-friendly capital</h4>
@@ -40,9 +36,7 @@ const FooterSection = () => {
                   <li className="py-2">
                     <div className="d-flex align-items-center">
                       <div>
-                        <Badge className="badge-circle mr-3" color="primary">
                           <i className="ni ni-html5" />
-                        </Badge>
                       </div>
                       <div>
                         <h4 className="mb-0">Drive key metrics and market your business</h4>
@@ -52,9 +46,7 @@ const FooterSection = () => {
                   <li className="py-2">
                     <div className="d-flex align-items-center">
                       <div>
-                        <Badge className="badge-circle mr-3" color="primary">
                           <i className="ni ni-satisfied" />
-                        </Badge>
                       </div>
                       <div>
                         <h4 className="mb-0">Build a loyal army of evangelists and fans</h4>
@@ -64,9 +56,7 @@ const FooterSection = () => {
                   <li className="py-2">
                     <div className="d-flex align-items-center">
                       <div>
-                        <Badge className="badge-circle mr-3" color="primary">
                           <i className="ni ni-satisfied" />
-                        </Badge>
                       </div>
                       <div>
                         <h4 className="mb-0">Average raise: $500,000+ from 1,500+ investors*</h4>
@@ -76,9 +66,7 @@ const FooterSection = () => {
                   <li className="py-2">
                     <div className="d-flex align-items-center">
                       <div>
-                        <Badge className="badge-circle mr-3" color="primary">
                           <i className="ni ni-satisfied" />
-                        </Badge>
                       </div>
                       <div>
                         <h4 className="mb-0">90%+ success rate since 2016</h4>
